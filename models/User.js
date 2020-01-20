@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
   password: String,
   passwordResetToken: String,
   passwordResetExpires: Date,
-
+/*does travis see*/
   facebook: String,
   twitter: String,
   google: String,

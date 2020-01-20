@@ -551,4 +551,5 @@ exports.isAuthorized = (req, res, next) => {
   } else {
     res.redirect(`/auth/${provider}`);
   }
+  /*seeingif travis notices*/
 };
